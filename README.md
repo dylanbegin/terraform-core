@@ -1,3 +1,3 @@
 # terraform-core
 
-Adguard, Vault, and Swarm VM deployment using terraform.
+Adguard and Vault VM deployment using terraform.
