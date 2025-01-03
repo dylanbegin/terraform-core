@@ -1,9 +1,7 @@
-> This README is still under development!
-{.is-warning}
+> :warning: This README is still under development!
 
 # Terraform Repo for Core Services
-> This repo is built for my own environment so please review all configurations to verify compatibility!
-{.is-warning}
+> :warning: This repo is built for my own environment so please review all configurations to verify compatibility!
 
 This repo provides all terraform automation for deploying the core VM needed prior to building the Talos Kubernetes cluster:
 - Adguard DNS VMs.
