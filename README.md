@@ -5,11 +5,11 @@
 
 This repo provides all terraform automation for deploying the core VM needed prior to building the Talos Kubernetes cluster:
 - Adguard DNS VMs.
- - Provides DNS and adblocking on the network.
+  - Provides DNS and adblocking on the network.
 - Hashicorp Vault VM.
- - This will be used to store all credentials and secrets for the Kubernetes cluster which will be accessed by external-secrets.
+  - This will be used to store all credentials and secrets for the Kubernetes cluster which will be accessed by external-secrets.
 - Docker Swarm VM.
- - Single node Swarm VM which will host our internal k8s-apps git repo which Argo-cd will pull to build the Kubernetes cluster. Resolves a chicken and egg situation when self-hosting but you could also use a cloud hosted repo if you chose.
+  - Single node Swarm VM which will host our internal k8s-apps git repo which Argo-cd will pull to build the Kubernetes cluster. Resolves a chicken and egg situation when self-hosting but you could also use a cloud hosted repo if you chose.
 
 # Build Your Secrets File
 Keeping in best practice, this repo does not contain any sensitive information. You will need to create a directory outside of this git repo on a properly encrypted disk/usb to save the secrets file. Below is the template needed for the file which needs to be named `tf-secrets.tfvars`.
