@@ -1,7 +1,7 @@
 > [!WARNING]
 > This README is still under development!
 
-# ![logo](https://raw.githubusercontent.com/walkxcode/dashboard-icons/07a06d893e901fda965ba10f39d7aa7a3a18ea0d/svg/terraform.svg) Terraform Repo for Core Services
+# ![logo](https://icon.horse/icon/www.terraform.io) Terraform Repo for Core Services
 > [!IMPORTANT]
 > This repo is built for my own environment so please review all configurations to verify compatibility!
 
