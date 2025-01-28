@@ -119,20 +119,3 @@ variable "vault" {
     }
   }
 }
-
-# Docker Swarm server configs.
-variable "swarm" {
-  type = map(any)
-  default = {
-    swarm = {
-      node      = "gpu1"
-      id        = "190"
-      tag       = ["docker"]
-      desc      = "Docker Swarm Node<br>Alpine Linux"
-      ipv4-ip   = "10.10.10.90/24"
-      cores     = 4
-      memory    = 8192
-      disk-size = "50"
-    }
-  }
-}

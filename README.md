@@ -10,8 +10,6 @@ This repo provides all terraform automation for deploying the core VM needed pri
   - Provides DNS and adblocking on the network.
 - Hashicorp Vault VM.
   - This will be used to store all credentials and secrets for the Kubernetes cluster which will be accessed by external-secrets.
-- Docker Swarm VM.
-  - Single node Swarm VM which will host our internal k8s-apps git repo which Argo-cd will pull to build the Kubernetes cluster. Resolves a chicken and egg situation when self-hosting but you could also use a cloud hosted repo if you chose.
 
 > [!TIP]
 > This repo is part of my IaC automation series. If you are building this in mind please follow my repo's in the order below.
